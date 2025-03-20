@@ -4,8 +4,8 @@ from typing import Any, Optional
 
 from pydantic import AnyUrl, BaseModel
 
-from models.base_model import BaseResponse
-from models.shared import Key, Position, Result, Role, Tier
+from opgg.models.base_model import BaseResponse
+from opgg.models.shared import Key, Position, Result, Role, Tier
 
 
 class Rune(BaseModel):

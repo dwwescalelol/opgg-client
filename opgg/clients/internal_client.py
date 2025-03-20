@@ -1,11 +1,11 @@
 import datetime
 from typing import Generator
 
-from clients.base_client import BaseAPIClient
-from models.champion import ChampionAPIResponce
-from models.match_history import MatchHistoryAPIResponce
-from models.shared import Region
-from models.summoner_champion_stats import (
+from opgg.clients.base_client import BaseAPIClient
+from opgg.models.champion import ChampionAPIResponce
+from opgg.models.match_history import MatchHistoryAPIResponce
+from opgg.models.shared import Region
+from opgg.models.summoner_champion_stats import (
     SummonerChampStatsAPIEmptyResponce,
     SummonerChampStatsAPIResponce,
 )

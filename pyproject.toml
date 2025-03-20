@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "opgg-client"
-version = "0.1.1"
+version = "0.1.2"
 description = "A Python client for interacting with the OPGG API."
 readme = "README.md"
 license = { text = "MIT" }
@@ -30,7 +30,7 @@ dev = [
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["clients*", "models*"]
+include = ["opgg*"]
 
 [project.urls]
 homepage = "https://github.com/dwwescalelol/opgg-client"

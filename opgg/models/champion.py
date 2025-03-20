@@ -2,7 +2,7 @@ from typing import Optional
 
 from pydantic import BaseModel
 
-from models.base_model import BaseResponse
+from opgg.models.base_model import BaseResponse
 
 
 class EvolveItem(BaseModel):

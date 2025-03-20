@@ -80,7 +80,7 @@ def test_get_champion_metadata(client: OPGGClient):
     assert isinstance(result, ChampionAPIResponce)
 
 
-@patch("clients.client.OPGGClient.get_match_history")
+@patch("opgg.clients.internal_client.OPGGClient.get_match_history")
 def test_get_all_match_history(mock_get: MagicMock, client: OPGGClient):
 
     first_response = load_json_test_data(

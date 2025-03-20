@@ -1,5 +1,5 @@
-from clients.base_client import BaseAPIClient
-from models.meta_responses import (
+from opgg.clients.base_client import BaseAPIClient
+from opgg.models.meta_responses import (
     GameTypeAPIResponse,
     SeasonAPIResponce,
     TierAPIResponse,
