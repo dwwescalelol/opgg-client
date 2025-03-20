@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "opgg-client"
-version = "0.1.2"
+version = "0.1.3"
 description = "A Python client for interacting with the OPGG API."
 readme = "README.md"
 license = { text = "MIT" }
