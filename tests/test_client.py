@@ -5,12 +5,12 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from clients.client import OPGGClient
-from models.base_model import BaseResponse
-from models.champion import ChampionAPIResponce
-from models.match_history import MatchHistoryAPIResponce
-from models.shared import Region
-from models.summoner_champion_stats import (
+from opgg.clients.internal_client import OPGGClient
+from opgg.models.base_model import BaseResponse
+from opgg.models.champion import ChampionAPIResponce
+from opgg.models.match_history import MatchHistoryAPIResponce
+from opgg.models.shared import Region
+from opgg.models.summoner_champion_stats import (
     SummonerChampStatsAPIEmptyResponce,
     SummonerChampStatsAPIResponce,
 )

@@ -1,13 +1,13 @@
 
 import pytest
 
-from clients.meta_client import OPGGMetaClient
-from models.meta_responses import (
+from opgg.clients.meta_client import OPGGMetaClient
+from opgg.models.meta_responses import (
     GameTypeAPIResponse,
     SeasonAPIResponce,
     TierAPIResponse,
 )
-from models.shared import GameType, Season, Tier
+from opgg.models.shared import GameType, Season, Tier
 
 
 @pytest.fixture
