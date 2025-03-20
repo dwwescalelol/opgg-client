@@ -1,4 +1,3 @@
-
 import pytest
 
 from opgg.clients.meta_client import OPGGMetaClient

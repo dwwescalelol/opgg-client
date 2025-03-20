@@ -1,5 +1,4 @@
 import datetime
-import urllib
 from typing import Generator
 
 from clients.base_client import BaseAPIClient
